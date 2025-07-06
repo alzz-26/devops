@@ -45,7 +45,7 @@ management:
     export:
       graphite:
         enabled: true
-        host: localhost
+        host: graphite
         port: 2003
         step: 10s
         prefix: inventory.app
