@@ -6,7 +6,7 @@ services:
     build: .
     container_name: inventory-management-app
     ports:
-      - "8080:8080"
+      - "8081:8080"
     environment:
       - SPRING_PROFILES_ACTIVE=docker
       - MANAGEMENT_METRICS_EXPORT_GRAPHITE_HOST=graphite
@@ -24,7 +24,7 @@ services:
     ports:
       - "2003:2003"  # Carbon plaintext
       - "2004:2004"  # Carbon pickle
-      - "8081:80"    # Graphite web interface
+      - "8082:80"    # Graphite web interface
     volumes:
       - graphite-data:/opt/graphite/storage
     networks:
@@ -54,8 +54,9 @@ services:
   jenkins:
     image: jenkins/jenkins:lts-jdk11
     container_name: jenkins
+    user: root
     ports:
-      - "8082:8080"
+      - "8080:8080"
       - "50000:50000"
     environment:
       - JENKINS_OPTS=--httpPort=8080
