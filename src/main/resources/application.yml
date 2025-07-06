@@ -48,6 +48,7 @@ management:
         host: graphite
         port: 2003
         step: 10s
+        tags-as-prefix: "*"
         prefix: inventory.app
     tags:
       application: ${spring.application.name}
