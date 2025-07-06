@@ -1,0 +1,6 @@
+---
+- hosts: local
+  tasks:
+    - name: Print a message from Ansible
+      debug:
+        msg: "Ansible is working from Jenkins!"
