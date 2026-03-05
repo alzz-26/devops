@@ -132,7 +132,7 @@ sudo apt install ansible
 ansible --version
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -158,7 +158,7 @@ docker-compose up -d
 - **Graphite**: http://localhost:8081
 - **Jenkins**: http://localhost:8082
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### Product Management
 - `GET /api/products` - Get all products
@@ -179,7 +179,7 @@ docker-compose up -d
 - `GET /actuator/metrics` - Application metrics
 - `GET /actuator/prometheus` - Prometheus metrics
 
-## 🔧 Configuration
+## Configuration
 
 ### Application Configuration
 The application configuration is in `src/main/resources/application.yml`:
@@ -213,7 +213,7 @@ Ansible playbooks are in the `ansible/` directory:
 - `playbook.yml` - Main configuration playbook
 - `inventory.ini` - Server inventory
 
-## 🧪 Testing
+## Testing
 
 ### Run Unit Tests
 ```bash
@@ -248,7 +248,7 @@ curl -X POST http://localhost:8080/api/products \
   }'
 ```
 
-## 📈 Monitoring
+## Monitoring
 
 ### Grafana Dashboards
 The application includes pre-configured Grafana dashboards for:
@@ -270,7 +270,7 @@ The application provides health check endpoints:
 - `/actuator/health/db` - Database connectivity
 - `/actuator/health/disk` - Disk space
 
-## 🔄 CI/CD Pipeline
+## CI/CD Pipeline
 
 ### Jenkins Pipeline Stages
 1. **Checkout** - Clone source code
@@ -296,7 +296,7 @@ The pipeline is defined in `Jenkinsfile` and includes:
 - Monitoring integration
 - Email notifications
 
-## 🛡️ Security
+## Security
 
 ### Security Features
 - Input validation
@@ -311,7 +311,7 @@ The pipeline is defined in `Jenkinsfile` and includes:
 - Docker image scanning with Trivy
 - SonarQube security analysis
 
-## 📚 Documentation
+## Documentation
 
 ### API Documentation
 - Swagger UI: http://localhost:8080/swagger-ui.html
@@ -322,7 +322,7 @@ The pipeline is defined in `Jenkinsfile` and includes:
 - Deployment diagrams
 - Monitoring architecture
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -330,18 +330,18 @@ The pipeline is defined in `Jenkinsfile` and includes:
 4. Add tests
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support
+## Support
 
 For support and questions:
 - Create an issue in the GitHub repository
 - Contact the DevOps team
 - Check the documentation
 
-## 🔗 Links
+## Links
 
 - [Spring Boot Documentation](https://spring.io/projects/spring-boot)
 - [Jenkins Documentation](https://www.jenkins.io/doc/)
@@ -350,8 +350,6 @@ For support and questions:
 - [Grafana Documentation](https://grafana.com/docs/)
 - [Graphite Documentation](https://graphite.readthedocs.io/)
 
----
+ 
+ 
 
-**Note**: This is a demonstration project for DevOps learning purposes. For production use, additional security, monitoring, and configuration should be implemented. #   d e v o p s 
- 
- 
