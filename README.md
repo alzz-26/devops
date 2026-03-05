@@ -1,3 +1,4 @@
+# Inventory Management System
 # Inventory Management System - DevOps CI/CD Pipeline
 
 A complete DevOps CI/CD pipeline demonstration project featuring an Inventory Management System built with Spring Boot, integrated with Jenkins, Docker, Ansible, Graphite, and Grafana.
@@ -352,4 +353,5 @@ For support and questions:
 
  
  
+
 
