@@ -2,7 +2,7 @@
 
 A complete DevOps CI/CD pipeline demonstration project featuring an Inventory Management System built with Spring Boot, integrated with Jenkins, Docker, Ansible, Graphite, and Grafana.
 
-## 🏗️ Project Overview
+## Project Overview
 
 This project demonstrates a complete DevOps pipeline for a Java Spring Boot application with the following components:
 
@@ -17,7 +17,7 @@ This project demonstrates a complete DevOps pipeline for a Java Spring Boot appl
 - **Code Quality**: SonarQube
 - **Security**: Vulnerability scanning
 
-## 🚀 Features
+## Features
 
 ### Application Features
 - RESTful API for product management
@@ -37,7 +37,7 @@ This project demonstrates a complete DevOps pipeline for a Java Spring Boot appl
 - Security vulnerability scanning
 - Automated testing and deployment
 
-## 📋 Prerequisites
+## Prerequisites
 
 ### Required Software
 - **Java 11** or higher
@@ -352,5 +352,6 @@ For support and questions:
 
 ---
 
-**Note**: This is a demonstration project for DevOps learning purposes. For production use, additional security, monitoring, and configuration should be implemented. #   d e v o p s  
+**Note**: This is a demonstration project for DevOps learning purposes. For production use, additional security, monitoring, and configuration should be implemented. #   d e v o p s 
+ 
  
